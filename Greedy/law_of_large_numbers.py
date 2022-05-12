@@ -7,6 +7,6 @@ max = data[0]
 min = data[1]
 
 sum += (m % k) * min
-sum += (m -(m%k)) * max
+sum += (m - (m % k)) * max
 
 print(sum)
